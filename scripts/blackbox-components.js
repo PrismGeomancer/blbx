@@ -1,4 +1,4 @@
-const BBTwitter='#';
+const BBTwitter='https://x.com/Blackbox_agent';
 const BBH=(type,props,...children)=>(0,z.jsxs)(type,{...props,children:children.length===1?children[0]:children});
 function BBLogo(){return BBH('span',{className:'logo'},BBH('svg',{viewBox:'0 0 24 24',width:23,height:23,'aria-hidden':true},BBH('path',{d:'M3 7V3h4M17 3h4v4M21 17v4h-4M7 21H3v-4M8 8h8v8H8z',stroke:'currentColor',strokeWidth:1.8,fill:'none'})),BBH('span',{className:'logo__word'},'Blackbox'))}
 function BBIdentity(){return BBH('section',{className:'ca bb-identity','aria-label':'Bureau designation'},BBH('div',{className:'hazard ca__hazard','aria-hidden':true}),BBH('div',{className:'wrap ca__inner'},BBH('div',{className:'ca__tag'},BBH('span',{className:'ca__label'},'BB / 001'),BBH('span',{className:'ca__sym mono'},'SOLANA INCIDENT BUREAU')),BBH('div',{className:'bb-identity__stats mono'},BBH('span',{},'09 INVESTIGATORS'),BBH('span',{},'06 CASE FILES'),BBH('span',{className:'c-amber'},'EVIDENCE BEFORE ATTRIBUTION')),BBH('a',{className:'btn btn--ghost bb-twitter',href:BBTwitter,'aria-label':'BLACKBOX on Twitter'},'Twitter ',BBH('span',{'aria-hidden':true},'↗'))))}
